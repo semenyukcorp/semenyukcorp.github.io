@@ -1,0 +1,249 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .logo{
+        font-size: 30px;
+    }
+    .menu li{
+        padding: 0 17px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .team_block{
+        margin-bottom: 30px;
+    }
+    .logo{
+        font-size: 30px;
+    }
+    .menu li{
+        padding: 0 13px;
+    }
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    nav{
+        height: 60px;
+        line-height: 60px;
+        background-color: #2a2e48;
+        position: fixed;
+    }
+    .top_line{
+        display: none;
+    }
+    .logo{
+        padding-top: 19px;
+        font-size: 35px;
+    }
+    .menu_btn{
+        height: 40px;
+        width: 40px;
+        background-color: #e84545;
+        border-radius: 50%;
+        color: #fff;
+    }
+    .fa fa-bars{
+        top: 25px;
+    }
+    #bs-example-navbar-collapse-1{
+        background-color: #2a2e48;
+        padding: 20px;
+    }
+    .menu li{
+        display: block;
+    }
+    .menu li a{
+        display: block;
+        text-align: center;
+    }
+    .menu li a:hover{
+        background-color: #fff;
+        color: #000;
+    }
+    .title_block{
+        margin-top: 130px;
+    }
+    .team_block{
+        margin-bottom: 30px;
+    }
+    .team_block p {
+        font-size: 30px;
+    }
+    .download{
+        padding:20px 0 50px 0;
+    }
+    .team{
+        padding: 60px 0 40px 0;
+    }
+    #dl_form{
+        width: 100%
+    }
+    .call_btn{
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    nav{
+        height: 60px;
+        line-height: 60px;
+        background-color: #2a2e48;
+        position: fixed;
+    }
+    .top_line{
+        display: none;
+    }
+    .logo{
+        padding-top: 19px;
+        font-size: 30px;
+    }
+    .menu_btn{
+        height: 40px;
+        width: 40px;
+        background-color: #e84545;
+        border-radius: 50%;
+        color: #fff;
+    }
+    .fa fa-bars{
+        top: 25px;
+    }
+    #bs-example-navbar-collapse-1{
+        background-color: #2a2e48;
+        padding: 20px;
+    }
+    .menu li{
+        display: block;
+    }
+    .menu li a{
+        display: block;
+        text-align: center;
+    }
+    .menu li a:hover{
+        background-color: #fff;
+        color: #000;
+    }
+    .title_block{
+        margin-top: 130px;
+    }
+    .team_block{
+        margin-bottom: 30px;
+    }
+    .team_block p {
+        font-size: 30px;
+    }
+    .download{
+        padding:20px 0 50px 0;
+    }
+    .team{
+        padding: 60px 0 40px 0;
+    }
+    #dl_form{
+        width: 100%
+    }
+    .call_btn{
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    nav{
+        height: 60px;
+        line-height: 60px;
+        background-color: #2a2e48;
+        position: fixed;
+    }
+    .top_line{
+        display: none;
+    }
+    .logo{
+        padding-top: 19px;
+        font-size: 30px;
+    }
+    .menu_btn{
+        height: 40px;
+        width: 40px;
+        background-color: #e84545;
+        border-radius: 50%;
+        color: #fff;
+    }
+    .fa fa-bars{
+        top: 25px;
+    }
+    #bs-example-navbar-collapse-1{
+        background-color: #2a2e48;
+        padding: 20px;
+    }
+    .menu li{
+        display: block;
+    }
+    .menu li a{
+        display: block;
+        text-align: center;
+    }
+    .menu li a:hover{
+        background-color: #fff;
+        color: #000;
+    }
+    .title_block{
+        margin-top: 130px;
+    }
+    .team_block{
+        margin-bottom: 30px;
+    }
+    .team_block p {
+        font-size: 30px;
+    }
+    .download{
+        padding:20px 0 50px 0;
+    }
+    .team{
+        padding: 60px 0 40px 0;
+    }
+    #dl_form{
+        width: 100%
+    }
+    .call_btn{
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

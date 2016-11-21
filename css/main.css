@@ -1,0 +1,259 @@
+@font-face {
+	font-family: RalewayBold;
+	src: url('../fonts/RalewayBold/RalewayBold.eot'), url('../fonts/RalewayBold/RalewayBold.ttf') format('truetype'), url('../fonts/RalewayBold/RalewayBold.woff');
+}
+
+@font-face {
+	font-family: RalewayRegular;
+	src: url('../fonts/RalewayRegular/RalewayRegular.eot'), url('../fonts/RalewayRegular/RalewayRegular.ttf') format('truetype'), url('../fonts/RalewayRegular/RalewayRegular.woff');
+}
+
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+}
+
+/*BUTTONS*/
+.my_btn{
+    background-color: #e84545;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    position: relative;
+}
+.btn_md{
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.btn_md:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.btn_lg{
+    padding: 15px 50px;
+}
+.p0{
+    padding: 0;
+}
+
+/*HEADER*/
+header{
+    height: 680px;
+    background-image: url(../img/banner.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+nav{
+    height: 94px;
+    line-height: 94px;
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.hamburger{
+    top: 27% !important;
+    right: 32%;
+    position: absolute;
+}
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li{
+    display: inline-block;
+    padding: 0 30px;
+}
+.menu li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: RalewayBold;
+}
+.menu li a:hover, .menu li a:focus{
+    text-decoration: none;
+    color: #e1e1e1;
+}
+.top_line{
+    height: 1px;
+    background-color: #e1e1e1;
+}
+.logo{
+    padding-top: 35px;
+    color: #fff;
+    text-decoration: none;
+}
+.logo:hover, .logo:focus{
+    text-decoration: none;
+}
+.title_block{
+    color: #fff;
+    text-align: center;
+    margin-top: 200px;
+}
+.title_block h1, .logo{
+    font-size: 50px;
+    font-family: RalewayBold, sans-serif;
+    margin-bottom: 30px;
+}
+
+.title_block p{
+    font-family: 18px;
+    margin-bottom: 50px;
+}
+
+/*PARAMS SECTION*/
+
+.params{
+    padding: 95px 0;
+}
+.param_block{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.param_block i{
+    font-size: 70px;
+    color: #e84545;
+}
+.param_block h3{
+    text-transform: uppercase;
+    font-family: RalewayBold, sans-serif;
+    font-size: 18px;
+}
+.param_block p{
+    font-size: 14px;
+}
+
+/*WORKS SECTION*/
+
+.work_block{
+    position: relative;
+}
+.work_block img{
+    width: 475px;
+    height: 250px;
+}
+.image_wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(232,69,69,.6);
+    display: flex;
+    opacity: 0;
+}
+.text_wrap{
+    text-align: center;
+    color: #fff;
+    margin: auto;
+}
+.work_block:hover .image_wrap{
+    opacity: 1;
+}
+
+/*TEAM SECTION*/
+.team{
+    padding: 130px 0;
+    color: #6c7279;
+}
+.team_block h4{
+    font-family: RalewayBold, sans-serif;
+    color: #000;
+}
+.team_block img{
+}
+.team_block span{
+    text-transform: uppercase;
+    color:  #e84545;
+    font-size: 14px;
+
+}
+.team_block p{
+    color: #6c7279;
+    font-size: 14px;
+    padding: 10px 0;
+}
+.soc_btn{
+    border: 1px solid #c6cacc;
+    background-color: transparent;
+    color: #c6cacc;
+    width: 30px;
+    height: 30px;
+}
+
+/*DOWNLOAD SECTION*/
+.download{
+    padding: 90px 0;
+    padding-top: 0 !important;
+}
+.download_block{
+    text-align: center;
+}
+.download_block h5{
+    font-size: 24px;
+}
+.download_block p{
+    font-family: RalewayBold, sans-serif;
+    text-transform: uppercase;
+}
+
+
+/*FOOTER*/
+.main_footer{
+    padding: 70px 0;
+    background-color: #055695;
+}
+.footer_block{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer_block h5{
+    font-family: RalewayBold, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+.footer_block p{
+    color: #9d9fb2;
+    font-size: 14px;
+}
+.soc_btn_white_soc{
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+}
+.copyright{
+    background-color: #002e6c;
+    text-align: center;
+    padding: 30px 0;
+}
+.copyright_block{
+    color:  #9d9fb2;
+}
+
+/*MODAL FORM*/
+#dl_form{
+    width: 70%;
+    margin: 0 auto;
+}
+#dl_form input{
+    margin-bottom: 15px;
+}
+
+.call_btn{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    z-index: 999;
+    background-color: #e84545;
+    border: none;
+
+}
